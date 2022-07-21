@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulario JavaScript</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <fieldset>
+            <legend>Formulario JavaScript</legend>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" />
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" name="apellidos" id="apellidos"/>
+                <label for="edad">Edad:</label>
+                <input name="edad" type="text" id="edad" />
+                <label for="nif">NIF:</label>
+                <input name="nif" type="text" id="nif" />
+                <label for="email">E-mail:</label>
+                <input name="email" type="text" id="email" />
+                <label for="provincia">Provincia:</label>
+                <select name="provincia" id="provincia" >
+                    <option value="" selected="selected">Seleccione Provincia</option>
+                    <option value="SC">S/C de Tenerife</option>
+                    <option value="LP">Las Palmas de Gran Canaria</option>                   
+                </select>
+                <label for="isla">Isla:</label>
+                <select name="isla" id="isla" >
+                    <option value="" selected="selected">Seleccione Isla</option>
+                    <option value="LP">La Palma</option>
+                    <option value="LG">La Gomera</option>  
+                    <option value="EH">El Hierro</option>    
+                    <option value="TF">Tenerife</option>    
+                    <option value="GC">Gran Canaria</option> 
+                    <option value="FV">Fuerteventura</option>     
+                    <option value="LZ">Lanzarote</option>    
+                </select>
+                <label for="fecha">Fecha Nacimiento:</label>
+                <input name="dia" type="text" id="fecha" />
+                <label for="telefono">Teléfono:</label>
+                <input name="telefono" type="text" id="telefono" />
+                <input type="reset" name="limpiar" id="button" value="Limpiar" />
+                <input type="submit" name="enviar" id="enviar" value="Enviar" />
+            </form> 
+            <p id="errores"></p>
+            <p id="intentos"></p>
+        </fieldset>
+    </body>
+</html>
