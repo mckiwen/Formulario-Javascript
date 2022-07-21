@@ -1,7 +1,7 @@
 # Formulario-Javascript
 Formulario sencillo desarrollado con HTML5, CSS3 y JS. Se realizan validaciones de los datos introducidos desde JavaScript y no desde el HTML5.
 
-Este formulario consta de un index.html desarrollado en HTML5, una hoja de estilos style.css y una hoja donde se encuentran los scripts de JS. En la hoja de JS, se aplican validaciones con los eventos "onclick", "focusout" y "onchange". También consta de una cookie que guarda el número de veces que se ha intentado enviar el formulario. Para poder ver el resultado de la cookie correctamente, se recomienda abrir el index.html desde un navegador Firefox. 
+Este formulario consta de un index.html desarrollado en HTML5, una hoja de estilos style.css y una hoja donde se encuentran los scripts de JS. En la hoja de JS, se aplican validaciones con los eventos "onclick", "focusout" y "onchange". También consta de una cookie que guarda el número de veces que se ha intentado enviar el formulario. Para poder ver el resultado de la cookie correctamente, se recomienda abrir el index.html desde un navegador Firefox. Se recomienda abrir el index.html a través de Live Server con Visual Studio Code.
 
 <h2>Validaciones aplicadas</h2>
 - Introducir la primera letra del nombre y apellido en mayúsculas cuando se pierde el foco. Se permiten nombres compuestos.</br></br>
